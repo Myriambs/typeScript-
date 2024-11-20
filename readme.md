@@ -14,30 +14,30 @@ Installation de TypeScript
     Assurez-vous d'avoir Node.js installé.
     Installez TypeScript globalement avec :
 
-npm install -g typescript
+============ > npm install -g typescript
 
 Vérifiez l'installation :
 
-tsc --version
+=============== >  tsc --version
 
 alors les steps : 
  Initialiser un projet TypeScript
 
 Pour commencer, vous devez installer TypeScript dans votre projet.
 
-npm init -y
-npm install typescript --save-dev
+================== >  npm init -y
+================== > npm install typescript --save-dev
 
 2. Créer le fichier tsconfig.json
 
 Le fichier tsconfig.json sert à configurer le compilateur TypeScript. Pour générer ce fichier automatiquement, utilisez :
 
-npx tsc --init
+============= > npx tsc --init
 
 Cela crée un fichier tsconfig.json dans votre projet avec des options par défaut.
 
 pour la configuration , on a une configuration automatique qui peut bien evidament changer , voici un exemple de configuration qui peut etre utilise pour les debuts .
-
+=====>
 {
   "compilerOptions": {
     "target": "es6", // ou un autre target compatible
@@ -100,7 +100,7 @@ puis Run ( npx tsc  )
 
 ////////////////* pour une auto implementation du fichier ts 
 
----->  npx tsc --watch
+===========>  npx tsc --watch
 
 si nn au niveu du fichier package.json , => 
 
